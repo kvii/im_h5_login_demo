@@ -1,0 +1,33 @@
+{
+  "name": "im_h5_login_demo",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "run-p type-check \"build-only {@}\" --",
+    "preview": "vite preview",
+    "build-only": "vite build",
+    "type-check": "vue-tsc --noEmit -p tsconfig.app.json --composite false"
+  },
+  "dependencies": {
+    "open-im-sdk-wasm": "^3.3.0",
+    "@jlongster/sql.js": "^1.6.7",
+    "absurd-sql": "^0.0.53",
+    "absurd-sql-optimized": "^0.0.1",
+    "rpc-shooter": "^0.0.14",
+    "squel": "^5.13.0",
+    "uuid": "^9.0.0",
+    "vue": "^3.3.4"
+  },
+  "devDependencies": {
+    "@tsconfig/node18": "^18.2.2",
+    "@types/node": "^18.17.17",
+    "@vitejs/plugin-vue": "^4.3.4",
+    "@vue/tsconfig": "^0.4.0",
+    "npm-run-all2": "^6.0.6",
+    "typescript": "~5.2.0",
+    "unocss": "^0.56.4",
+    "vite": "^4.4.9",
+    "vue-tsc": "^1.8.11"
+  }
+}
