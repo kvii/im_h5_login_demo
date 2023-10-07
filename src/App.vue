@@ -74,6 +74,7 @@ async function onSubmit() {
 interface User {
   id: number
   name: string
+  faceUrl: string
   imToken: string
 }
 
